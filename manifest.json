@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.1",
+  "name": "Neutral Dark Gray",
+  "theme": {
+    "images": {},
+    "properties": {},
+    "colors": {
+      "toolbar": "rgb(47, 47, 47)",
+      "toolbar_text": "rgb(208, 208, 208)",
+      "frame": "rgb(33, 33, 33)",
+      "tab_background_text": "rgb(208, 208, 208)",
+      "toolbar_field": "rgb(57, 57, 57)",
+      "toolbar_field_text": "rgb(208, 208, 208)",
+      "tab_line": "rgb(68, 68, 68)",
+      "popup": "rgb(47, 47, 47)",
+      "popup_text": "rgb(208, 208, 208)",
+      "button_background_active": "rgb(65, 65, 65)",
+      "button_background_hover": "rgb(60, 60, 60)",
+      "icons_attention": "rgb(64, 139, 223)",
+      "icons": "rgb(208, 208, 208)",
+      "ntp_background": "rgb(33, 33, 33)",
+      "ntp_text": "rgb(208, 208, 208)",
+      "popup_border": "rgb(55, 55, 55)",
+      "popup_highlight_text": "rgb(252, 252, 252)",
+      "popup_highlight": "rgb(64, 139, 223)",
+      "sidebar_border": "rgb(55, 55, 55)",
+      "sidebar_highlight_text": "rgb(252, 252, 252)",
+      "sidebar_highlight": "rgb(64, 139, 223)",
+      "sidebar_text": "rgb(208, 208, 208)",
+      "sidebar": "rgb(33, 33, 33)",
+      "tab_loading": "rgb(208, 208, 208)",
+      "tab_text": "rgb(208, 208, 208)",
+      "toolbar_bottom_separator": "rgb(44, 44, 44)",
+      "toolbar_field_border_focus": "rgb(64, 139, 223)",
+      "toolbar_field_focus": "rgb(57, 57, 57)",
+      "toolbar_field_highlight_text": "rgb(252, 252, 252)",
+      "toolbar_field_highlight": "rgb(64, 139, 223)"
+    }
+  }
+}
