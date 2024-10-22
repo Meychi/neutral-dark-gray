@@ -1,0 +1,133 @@
+@import url("themeConfig.css");
+
+:root,
+panel,
+toolbar,
+menupopup {
+  --panel-color: var(--theme-fore-color) !important;
+  --panel-background: var(--theme-back-color-menu) !important;
+  --panel-border-color: var(--theme-border-color-menu) !important;
+  --panel-border-radius: var(--theme-corner-radius) !important;
+  --tab-separator-color: var(--theme-separator-color) !important;
+  --tab-selected-outline-color: var(--theme-separator-color) !important;
+  --focus-outline-color: var(--theme-accent-color) !important;
+  --button-primary-bgcolor: var(--theme-accent-color) !important;
+  --button-primary-hover-bgcolor: var(--theme-accent-color-hover) !important;
+  --button-primary-active-bgcolor: var(--theme-accent-color-active) !important;
+  --organizer-toolbar-background: var(--theme-back-color) !important;
+  --organizer-content-background: var(--theme-back-color) !important;
+  --organizer-pane-background: var(--theme-back-color) !important;
+  --organizer-color: var(--theme-fore-color) !important;
+  --organizer-selected-color: var(--theme-fore-color-active) !important;
+  --organizer-selected-background: var(--theme-accent-color) !important;
+  --organizer-focus-selected-background: var(--theme-accent-color) !important;
+  --organizer-focus-selected-color: var(--theme-fore-color-active) !important;
+  --organizer-toolbar-field-background: var(--theme-back-color) !important;
+  --organizer-toolbar-field-background-focused: var(--theme-back-color) !important;
+  --organizer-toolbar-field-border-color: var(--theme-border-color) !important;
+  --organizer-toolbar-field-focus-border-color: var(--theme-accent-color) !important;
+  --organizer-hover-background: var(--theme-back-color-active) !important;
+  --organizer-border-color: var(--theme-border-color) !important;
+  --input-border-color: var(--theme-border-color) !important;
+  --in-content-box-background: var(--theme-back-color) !important;
+  --in-content-box-border-color: var(--theme-border-color) !important;
+  --in-content-page-background: var(--theme-back-color) !important;
+  --in-content-primary-button-background: var(--theme-accent-color) !important;
+  --in-content-primary-button-background-hover: var(--theme-accent-color-hover) !important;
+  --in-content-primary-button-background-active: var(--theme-accent-color-active) !important;
+}
+
+#search-box {
+  appearance: unset !important;
+  background-color: var(--theme-back-color) !important;
+  border: var(--theme-border-width) solid var(--theme-border-color) !important;
+  border-radius: var(--theme-corner-radius) !important;
+}
+
+#tabbrowser-tabs {
+  border: none !important;
+  margin-left: -2px !important;
+}
+
+#customization-content-container {
+  background-color: var(--theme-back-color) !important;
+}
+
+#customization-lwtheme-link {
+  color: var(--theme-accent-color) !important;
+}
+
+treecol,
+#commonDialog {
+  background-color: var(--theme-back-color) !important;
+}
+
+.dialog-button-box button {
+  appearance: unset !important;
+  background-color: var(--theme-back-color-menu) !important;
+  border: var(--theme-border-width) solid var(--theme-border-color) !important;
+  border-radius: var(--theme-corner-radius) !important;
+  color: var(--theme-fore-color) !important;
+}
+
+.dialog-button-box button:hover {
+  background-color: var(--theme-back-color-active) !important;
+}
+
+menu,
+menuitem,
+#appMenu-popup .subviewbutton {
+  color: var(--theme-fore-color) !important;
+  border-radius: var(--theme-corner-radius) !important;
+  background-color: var(--theme-back-color-menu) !important;
+}
+
+menu:hover,
+menuitem:hover,
+#appMenu-popup .subviewbutton:hover {
+  background-color: var(--theme-back-color-active) !important;
+}
+
+.urlbarView-url {
+  color: var(--theme-accent-color) !important;
+}
+
+#urlbar-background {
+  border: var(--theme-border-width) solid var(--theme-border-color-secondary) !important;
+}
+
+#placesToolbar {
+  border-bottom: var(--theme-border-width) solid var(--theme-border-color) !important;
+}
+
+#editBMPanel_folderTree {
+  background-color: var(--theme-back-color) !important;
+}
+
+#editBMPanel_folderTree treechildren::-moz-tree-row(selected),
+#editBMPanel_folderTree treechildren::-moz-tree-twisty(selected),
+#editBMPanel_folderTree treechildren::-moz-tree-cell-text(selected) {
+  background-color: var(--theme-accent-color) !important;
+  color: var(--theme-fore-color-active) !important;
+}
+
+input:not(#urlbar-input) { 
+  background-color: var(--theme-back-color) !important;
+}
+
+richlistbox {
+  border: none !important;
+}
+
+richlistitem[selected] {
+  outline: none !important;
+  border-radius: 0px !important;
+  background-image: none !important;
+  background-color: var(--theme-accent-color) !important;
+  color: var(--theme-fore-color-active) !important;
+}
+
+::selection {
+  color: var(--theme-fore-color-active) !important;
+  background: var(--theme-accent-color) !important;
+}
