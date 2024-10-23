@@ -7,6 +7,8 @@
     --bg-color: var(--theme-back-color) !important;
     --newtab-background-color: var(--theme-back-color) !important;
     --newtab-background-color-secondary: var(--theme-back-color-card) !important;
+    --page-nav-button-text-color: var(--theme-fore-color) !important;
+    --in-content-page-color: var(--theme-fore-color) !important;
     --in-content-page-background: var(--theme-back-color) !important;
     --in-content-box-background: var(--theme-back-color) !important;
     --in-content-box-border-color: var(--theme-border-color) !important;
@@ -14,6 +16,7 @@
     --color-accent-primary: var(--theme-accent-color) !important;
     --in-content-accent-color: var(--theme-accent-color) !important;
     --lwt-toolbarbutton-icon-fill-attention: var(--theme-accent-color) !important;
+    --button-text-color: var(--theme-fore-color) !important;
     --button-primary-bgcolor: var(--theme-accent-color) !important;
     --button-primary-hover-bgcolor: var(--theme-accent-color-hover) !important;
     --button-primary-active-bgcolor: var(--theme-accent-color-active) !important;
@@ -37,6 +40,30 @@
   .card-container {
     border-radius: var(--theme-corner-radius) !important;
     border: var(--theme-border-width) solid var(--theme-border-color-card) !important;
+  }
+
+  .radio-check,
+  input[type=radio],
+  input[type=checkbox],
+  .checkbox-check {
+    appearance: none !important;
+    border-radius: var(--theme-corner-radius) !important;
+    background-color: var(--theme-back-color) !important;
+    border: 2px solid var(--theme-border-color) !important;
+  }
+
+  .radio-check:hover,
+  input[type=radio]:hover,
+  input[type=checkbox]:hover,
+  .checkbox-check:hover {
+    filter: brightness(1.2);
+  }
+  
+  .radio-check[selected],
+  input[type=radio][checked],
+  input[type=checkbox]:checked,
+  .checkbox-check[checked] {
+    background-color: var(--theme-accent-color) !important;
   }
 }
 

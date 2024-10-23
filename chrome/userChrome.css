@@ -29,12 +29,15 @@ menupopup {
   --organizer-hover-background: var(--theme-back-color-active) !important;
   --organizer-border-color: var(--theme-border-color) !important;
   --input-border-color: var(--theme-border-color) !important;
+  --in-content-page-color: var(--theme-fore-color) !important;
   --in-content-box-background: var(--theme-back-color) !important;
   --in-content-box-border-color: var(--theme-border-color) !important;
   --in-content-page-background: var(--theme-back-color) !important;
   --in-content-primary-button-background: var(--theme-accent-color) !important;
   --in-content-primary-button-background-hover: var(--theme-accent-color-hover) !important;
   --in-content-primary-button-background-active: var(--theme-accent-color-active) !important;
+  --page-nav-button-text-color: var(--theme-fore-color) !important;
+  --button-text-color: var(--theme-fore-color) !important;
 }
 
 #search-box {
@@ -114,6 +117,34 @@ menuitem:hover,
 input:not(#urlbar-input) { 
   background-color: var(--theme-back-color) !important;
 }
+
+.radio-check,
+input[type=radio],
+input[type=checkbox],
+.checkbox-check {
+  appearance: none !important;
+  border-radius: var(--theme-corner-radius) !important;
+  background-color: var(--theme-back-color) !important;
+  border: 2px solid var(--theme-border-color) !important;
+}
+
+.radio-check:hover,
+input[type=radio]:hover,
+input[type=checkbox]:hover,
+.checkbox-check:hover {
+  filter: brightness(1.2);
+}
+
+.radio-check[selected],
+input[type=radio][checked],
+input[type=checkbox]:checked,
+.checkbox-check[checked] {
+  background-color: var(--theme-accent-color) !important;
+}
+
+#PanelUI-fxa-status { 
+  display: none !important; 
+} 
 
 richlistbox {
   border: none !important;
