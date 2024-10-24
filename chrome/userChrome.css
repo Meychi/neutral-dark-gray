@@ -4,12 +4,19 @@
 panel,
 toolbar,
 menupopup {
+  --lwt-accent-color: var(--theme-frame-color) !important;
+  --toolbar-bgcolor: var(--theme-back-color-menu) !important;
+  --toolbar-field-color: var(--theme-fore-color) !important;
+  --tab-selected-bgcolor: var(--theme-back-color-menu) !important;
+  --tab-separator-color: var(--theme-separator-color) !important;
+  --tab-selected-outline-color: var(--theme-separator-color) !important;
+  --toolbar-field-background-color: var(--theme-field-color) !important;
+  --toolbar-field-focus-background-color: var(--theme-field-color) !important;
+  --attention-dot-color: var(--theme-accent-color) !important;
   --panel-color: var(--theme-fore-color) !important;
   --panel-background: var(--theme-back-color-menu) !important;
   --panel-border-color: var(--theme-border-color-menu) !important;
   --panel-border-radius: var(--theme-corner-radius) !important;
-  --tab-separator-color: var(--theme-separator-color) !important;
-  --tab-selected-outline-color: var(--theme-separator-color) !important;
   --focus-outline-color: var(--theme-accent-color) !important;
   --button-text-color: var(--theme-fore-color) !important;
   --button-hover-bgcolor: var(--theme-back-color-active) !important;

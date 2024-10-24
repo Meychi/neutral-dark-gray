@@ -1,4 +1,6 @@
 :root {
+  --theme-frame-color: #212121;
+  --theme-field-color: #393939;
   --theme-fore-color: #d0d0d0;
   --theme-fore-color-active: #fefefe;
   --theme-back-color: #272727;
