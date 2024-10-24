@@ -45,6 +45,8 @@ menupopup {
   --page-nav-button-text-color: var(--theme-fore-color) !important;
   --theme-body-alternate-emphasized-background: var(--theme-back-color) !important;
   --theme-toolbar-separator: var(--theme-border-color) !important;
+  --link-color-hover: var(--theme-accent-color-hover) !important;
+  --link-color: var(--theme-accent-color) !important;
 }
 
 #search-box {
