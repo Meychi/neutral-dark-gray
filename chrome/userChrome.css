@@ -11,6 +11,9 @@ menupopup {
   --tab-separator-color: var(--theme-separator-color) !important;
   --tab-selected-outline-color: var(--theme-separator-color) !important;
   --focus-outline-color: var(--theme-accent-color) !important;
+  --button-text-color: var(--theme-fore-color) !important;
+  --button-hover-bgcolor: var(--theme-back-color-active) !important;
+  --button-active-bgcolor: var(--theme-back-color-active) !important;
   --button-primary-bgcolor: var(--theme-accent-color) !important;
   --button-primary-hover-bgcolor: var(--theme-accent-color-hover) !important;
   --button-primary-active-bgcolor: var(--theme-accent-color-active) !important;
@@ -27,6 +30,7 @@ menupopup {
   --organizer-toolbar-field-border-color: var(--theme-border-color) !important;
   --organizer-toolbar-field-focus-border-color: var(--theme-accent-color) !important;
   --organizer-hover-background: var(--theme-back-color-active) !important;
+  --organizer-outline-color: var(--theme-accent-color) !important;
   --organizer-border-color: var(--theme-border-color) !important;
   --input-border-color: var(--theme-border-color) !important;
   --in-content-page-color: var(--theme-fore-color) !important;
@@ -36,8 +40,11 @@ menupopup {
   --in-content-primary-button-background: var(--theme-accent-color) !important;
   --in-content-primary-button-background-hover: var(--theme-accent-color-hover) !important;
   --in-content-primary-button-background-active: var(--theme-accent-color-active) !important;
+  --toggle-background-color-pressed: var(--theme-accent-color) !important;
+  --toggle-background-color-pressed-hover: var(--theme-accent-color-hover) !important;
   --page-nav-button-text-color: var(--theme-fore-color) !important;
-  --button-text-color: var(--theme-fore-color) !important;
+  --theme-body-alternate-emphasized-background: var(--theme-back-color) !important;
+  --theme-toolbar-separator: var(--theme-border-color) !important;
 }
 
 #search-box {
@@ -60,8 +67,10 @@ menupopup {
   color: var(--theme-accent-color) !important;
 }
 
+tooltip,
 treecol,
 #commonDialog {
+  color: var(--theme-fore-color-active) !important;
   background-color: var(--theme-back-color) !important;
 }
 
@@ -78,16 +87,14 @@ treecol,
 }
 
 menu,
-menuitem,
-#appMenu-popup .subviewbutton {
+menuitem {
   color: var(--theme-fore-color) !important;
   border-radius: var(--theme-corner-radius) !important;
   background-color: var(--theme-back-color-menu) !important;
 }
 
 menu:hover,
-menuitem:hover,
-#appMenu-popup .subviewbutton:hover {
+menuitem:hover {
   background-color: var(--theme-back-color-active) !important;
 }
 

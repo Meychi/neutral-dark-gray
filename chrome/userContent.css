@@ -1,6 +1,6 @@
 @import url("themeConfig.css");
 
-@-moz-document url-prefix("about:"), url-prefix("chrome:") {
+@-moz-document url-prefix("about:"), url-prefix("chrome:"), url-prefix("view-source:") {
   html,
   body,
   window {
@@ -14,6 +14,8 @@
     --in-content-box-border-color: var(--theme-border-color) !important;
     --background-color-box: var(--theme-back-color) !important;
     --color-accent-primary: var(--theme-accent-color) !important;
+    --color-accent-primary-hover: var(--theme-accent-color-hover) !important;
+    --color-accent-primary-active: var(--theme-accent-color-active) !important;
     --in-content-accent-color: var(--theme-accent-color) !important;
     --lwt-toolbarbutton-icon-fill-attention: var(--theme-accent-color) !important;
     --button-text-color: var(--theme-fore-color) !important;
@@ -23,17 +25,22 @@
     --in-content-primary-button-background: var(--theme-accent-color) !important;
     --in-content-primary-button-background-hover: var(--theme-accent-color-hover) !important;
     --in-content-primary-button-background-active: var(--theme-accent-color-active) !important;
-    --input-border-color: var(--theme-accent-color) !important;
     --uc-checkbox-checked-bgcolor: var(--theme-accent-color) !important;
     --checkbox-checked-bgcolor: var(--theme-accent-color) !important;
+    --input-border-color: var(--theme-accent-color) !important;
     --focus-outline-color: var(--theme-accent-color) !important;
     --in-content-link-color: var(--theme-accent-color) !important;
     --fxview-primary-action-background: var(--theme-accent-color) !important;
     --newtab-primary-action-background: var(--theme-accent-color) !important;
+    --link-color-hover: var(--theme-accent-color-hover) !important;
     --link-color: var(--theme-accent-color) !important;
+    --theme-body-alternate-emphasized-background: var(--theme-back-color) !important;
+    --theme-toolbar-separator: var(--theme-border-color) !important;
   }
 
-  input {
+  input,
+  tooltip,
+  #viewsource {
     background-color: var(--theme-back-color) !important;
   }
 
@@ -41,7 +48,9 @@
     border-radius: var(--theme-corner-radius) !important;
     border: var(--theme-border-width) solid var(--theme-border-color-card) !important;
   }
+}
 
+@-moz-document url-prefix("about:") {
   .radio-check,
   input[type=radio],
   input[type=checkbox],
@@ -51,7 +60,7 @@
     background-color: var(--theme-back-color) !important;
     border: 2px solid var(--theme-border-color) !important;
   }
-
+  
   .radio-check:hover,
   input[type=radio]:hover,
   input[type=checkbox]:hover,
@@ -68,6 +77,6 @@
 }
 
 ::selection {
-  color: var(--theme-accent-color-active) !important;
+  color: var(--theme-fore-color-active) !important;
   background: var(--theme-accent-color) !important;
 }
