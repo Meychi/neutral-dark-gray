@@ -15,3 +15,7 @@ Repo contains:
     - `Menu` > `Help` > `More troubleshoot information` > `Profile Folder` > `Open Folder`
 4. Copy `chrome` directory to you profile folder
 5. Restart Firefox
+
+## Notes
+
+Tested on Mac and Windows 11 in dark mode with Firefox v131.
