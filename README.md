@@ -5,6 +5,8 @@ Repo contains:
 - `manifest.json`: theme file to package for https://addons.firefox.com
 - `chrome` folder containing CSS files for Firefox
 
+Tested on Mac and Windows 11 in dark mode with Firefox v131.
+
 ## Using these CSS files in Firefox
 
 1. Download `chrome` folder and it's contents
@@ -16,6 +18,8 @@ Repo contains:
 4. Copy `chrome` directory to you profile folder
 5. Restart Firefox
 
-## Notes
+## Screenshots
 
-Tested on Mac and Windows 11 in dark mode with Firefox v131.
+![Startpage](/images/startpage.jpg "Startpage")
+
+![Settings](/images/settings.jpg "Settings")
