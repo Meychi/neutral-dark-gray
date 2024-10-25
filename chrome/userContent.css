@@ -67,7 +67,14 @@
   .checkbox-check:hover {
     filter: brightness(1.2);
   }
-  
+
+  .radio-check:disabled,
+  input[type=radio]:disabled,
+  input[type=checkbox]:disabled,
+  .checkbox-check:disabled {
+    filter: saturate(0.2) !important;
+  }
+
   .radio-check[selected],
   input[type=radio][checked],
   input[type=checkbox]:checked,
