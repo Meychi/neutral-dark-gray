@@ -83,6 +83,7 @@ treecol,
   background-color: var(--theme-back-color) !important;
 }
 
+#viewButton,
 .dialog-button-box button {
   appearance: unset !important;
   background-color: var(--theme-back-color-menu) !important;
@@ -91,6 +92,7 @@ treecol,
   color: var(--theme-fore-color) !important;
 }
 
+#viewButton:hover,
 .dialog-button-box button:hover {
   background-color: var(--theme-back-color-active) !important;
 }

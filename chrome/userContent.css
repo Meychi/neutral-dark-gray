@@ -38,7 +38,6 @@
     --theme-toolbar-separator: var(--theme-border-color) !important;
   }
 
-  input,
   tooltip,
   #viewsource {
     background-color: var(--theme-back-color) !important;
