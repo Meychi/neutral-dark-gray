@@ -57,7 +57,7 @@
     appearance: none !important;
     border-radius: var(--theme-corner-radius) !important;
     background-color: var(--theme-back-color) !important;
-    border: 2px solid var(--theme-border-color) !important;
+    border: 1px solid var(--theme-border-color) !important;
   }
   
   .radio-check:hover,
@@ -79,6 +79,7 @@
   input[type=checkbox]:checked,
   .checkbox-check[checked] {
     background-color: var(--theme-accent-color) !important;
+    border: 2px solid var(--theme-border-color-checked) !important;
   }
 }
 
