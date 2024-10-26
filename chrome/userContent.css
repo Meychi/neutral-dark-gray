@@ -47,6 +47,10 @@
     border-radius: var(--theme-corner-radius) !important;
     border: var(--theme-border-width) solid var(--theme-border-color-card) !important;
   }
+
+  .web-appearance-choice img {
+    filter: saturate(0);
+  }
 }
 
 @-moz-document url-prefix("about:") {
