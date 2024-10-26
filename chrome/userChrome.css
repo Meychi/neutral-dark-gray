@@ -138,6 +138,7 @@ input:not(#urlbar-input) {
 
 .radio-check,
 input[type=radio],
+input[type=search],
 input[type=checkbox],
 .checkbox-check {
   appearance: none !important;
@@ -160,8 +161,8 @@ input[type=checkbox]:disabled,
   filter: saturate(0.2) !important;
 }
 
-.radio-check[selected],
-input[type=radio][checked],
+.radio-check:selected,
+input[type=radio]:checked,
 input[type=checkbox]:checked,
 .checkbox-check[checked] {
   background-color: var(--theme-accent-color) !important;

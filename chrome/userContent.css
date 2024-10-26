@@ -52,6 +52,7 @@
 @-moz-document url-prefix("about:") {
   .radio-check,
   input[type=radio],
+  input[type=search],
   input[type=checkbox],
   .checkbox-check {
     appearance: none !important;
@@ -75,7 +76,7 @@
   }
 
   .radio-check[selected],
-  input[type=radio][checked],
+  input[type=radio]:checked,
   input[type=checkbox]:checked,
   .checkbox-check[checked] {
     background-color: var(--theme-accent-color) !important;
