@@ -5,6 +5,7 @@ panel,
 toolbar,
 menupopup {
   --lwt-accent-color: var(--theme-frame-color) !important;
+  --lwt-sidebar-background-color: var(--theme-back-color) !important;
   --toolbar-bgcolor: var(--theme-back-color-menu) !important;
   --toolbar-field-color: var(--theme-fore-color) !important;
   --tab-selected-bgcolor: var(--theme-back-color-menu) !important;
