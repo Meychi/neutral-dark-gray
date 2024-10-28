@@ -12,6 +12,7 @@
     --in-content-page-background: var(--theme-back-color) !important;
     --in-content-box-background: var(--theme-back-color) !important;
     --in-content-box-border-color: var(--theme-border-color) !important;
+    --in-content-border-color: var(--theme-border-color) !important;
     --background-color-box: var(--theme-back-color) !important;
     --color-accent-primary: var(--theme-accent-color) !important;
     --color-accent-primary-hover: var(--theme-accent-color-hover) !important;
