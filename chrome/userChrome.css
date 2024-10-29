@@ -101,14 +101,16 @@ treecol,
 }
 
 menu,
-menuitem {
+menuitem,
+#appMenu-popup toolbarbutton.subviewbutton:not([disabled],[open]) {
   color: var(--theme-fore-color) !important;
   border-radius: var(--theme-corner-radius) !important;
   background-color: var(--theme-back-color-menu) !important;
 }
 
 menu:hover,
-menuitem:hover {
+menuitem:hover,
+#appMenu-popup toolbarbutton.subviewbutton:not([disabled],[open]):is(:hover) {
   background-color: var(--theme-back-color-active) !important;
 }
 
