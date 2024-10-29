@@ -7,7 +7,7 @@ Repository contains:
 
 Tested on Mac and Windows 11 in dark mode with Firefox v132.
 
-## Using these CSS files in Firefox
+## Using CSS files in Firefox
 
 1. Download or clone repository
 2. Open `about:config` page in Firefox
