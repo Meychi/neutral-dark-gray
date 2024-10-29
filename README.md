@@ -1,6 +1,6 @@
 # Introduction
 
-Repo contains:
+Repository contains:
 
 - `manifest.json`: theme file to package for https://addons.firefox.com
 - `chrome` folder containing CSS files for Firefox
@@ -9,7 +9,7 @@ Tested on Mac and Windows 11 in dark mode with Firefox v132.
 
 ## Using these CSS files in Firefox
 
-1. Download or clone repo
+1. Download or clone repository
 2. Open `about:config` page in Firefox
     - A dialog will warn you, ignore it, press the `I accept the risk!` button
     - Enable: `toolkit.legacyUserProfileCustomizations.stylesheets` property
