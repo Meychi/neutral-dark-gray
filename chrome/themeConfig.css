@@ -16,4 +16,22 @@
   --theme-accent-color-active: #82bbfc;
   --theme-corner-radius: 5px;
   --theme-border-width: 1px;
+  /* 4 steps darker */
+  /*--theme-frame-color: #1d1d1d;
+  --theme-field-color: #353535;
+  --theme-fore-color: #cccccc;
+  --theme-fore-color-active: #fafafa;
+  --theme-back-color: #232323;
+  --theme-back-color-active: #373737;
+  --theme-back-color-menu: #2c2c2c;
+  --theme-back-color-card: #2f2f2f;
+  --theme-border-color: #3d3d3d;
+  --theme-border-color-menu: #3d3d3d;
+  --theme-border-color-card: #3d3d3d;
+  --theme-border-color-checked: #454545;
+  --theme-accent-color: #3d8BDF;
+  --theme-accent-color-hover: #4fa0ec;
+  --theme-accent-color-active: #7ebbfc;
+  --theme-corner-radius: 5px;
+  --theme-border-width: 1px;*/
 }
