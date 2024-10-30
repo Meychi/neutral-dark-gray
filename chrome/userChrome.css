@@ -57,6 +57,9 @@ menupopup {
   --theme-toolbar-separator: var(--theme-border-color) !important;
   --link-color-hover: var(--theme-accent-color-hover) !important;
   --link-color: var(--theme-accent-color) !important;
+  --color-accent-primary: var(--theme-accent-color) !important;
+  --color-accent-primary-hover: var(--theme-accent-color-hover) !important;
+  --color-accent-primary-active: var(--theme-accent-color-active) !important;
 }
 
 #search-box {

@@ -1,4 +1,5 @@
 :root {
+  /* Matches theme colors */
   --theme-frame-color: #212121;
   --theme-field-color: #393939;
   --theme-fore-color: #d0d0d0;
@@ -16,7 +17,8 @@
   --theme-accent-color-active: #82bbfc;
   --theme-corner-radius: 5px;
   --theme-border-width: 1px;
-  /* 4 steps darker */
+  
+  /* Little darker colors */
   /*--theme-frame-color: #1d1d1d;
   --theme-field-color: #353535;
   --theme-fore-color: #cccccc;
