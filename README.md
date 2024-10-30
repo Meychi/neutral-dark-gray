@@ -13,7 +13,7 @@ Tested on Mac and Windows 11 in dark mode with Firefox v132.
 2. Open `about:config` page in Firefox
     - A dialog will warn you, ignore it, press the `I accept the risk!` button
     - Enable: `toolkit.legacyUserProfileCustomizations.stylesheets` property
-3. Go to your Firefox profile:
+3. Go to your Firefox profile folder:
     - `Menu` > `Help` > `More troubleshoot information` > `Profile Folder` > `Open Folder`
 4. Copy `chrome` directory to you profile folder
 5. Restart Firefox
