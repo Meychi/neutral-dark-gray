@@ -5,7 +5,7 @@ Repository contains:
 - `manifest.json`: theme file to package for https://addons.firefox.com
 - `chrome` folder containing CSS files for Firefox
 
-Tested on Mac and Windows 11 in dark mode with Firefox v132.
+Tested on Mac and Windows 11 in dark mode with Firefox v142.
 
 ## Using CSS files in Firefox
 

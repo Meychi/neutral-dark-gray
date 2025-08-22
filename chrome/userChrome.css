@@ -23,6 +23,8 @@ menupopup {
   --button-text-color: var(--theme-fore-color) !important;
   --button-hover-bgcolor: var(--theme-back-color-active) !important;
   --button-active-bgcolor: var(--theme-back-color-active) !important;
+  --button-active-bgcolor: var(--theme-back-color-active) !important;
+  --button-background-color: var(--theme-back-color-active) !important;
   --button-primary-bgcolor: var(--theme-accent-color) !important;
   --button-primary-hover-bgcolor: var(--theme-accent-color-hover) !important;
   --button-primary-active-bgcolor: var(--theme-accent-color-active) !important;
@@ -60,6 +62,14 @@ menupopup {
   --color-accent-primary: var(--theme-accent-color) !important;
   --color-accent-primary-hover: var(--theme-accent-color-hover) !important;
   --color-accent-primary-active: var(--theme-accent-color-active) !important;
+  --arrowpanel-border-color: var(--theme-border-color-card) !important;
+  --arrowpanel-background: var(--theme-back-color-card) !important;
+  --arrowpanel-color: var(--theme-fore-color) !important;
+  --toolbox-bgcolor-inactive: var(--theme-frame-color) !important;
+  --toolbox-textcolor-inactive: var(--theme-fore-color) !important;
+  --input-text-color: var(--theme-fore-color-active) !important;
+  --urlbarView-highlight-background: var(--theme-accent-color) !important;
+  --urlbar-box-bgcolor: var(--theme-field-color) !important;
 }
 
 #search-box {
@@ -129,7 +139,9 @@ toolbarbutton.subviewbutton:not([disabled],[open],.unified-extensions-item-menu-
   border-bottom: var(--theme-border-width) solid var(--theme-border-color) !important;
 }
 
-#sidebar-header {
+#sidebar-header,
+#sidebar-search-container,
+.sidebar-placesTree {
   background-color: var(--theme-back-color) !important;
 }
 
