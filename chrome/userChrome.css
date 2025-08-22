@@ -70,6 +70,7 @@ menupopup {
   --input-text-color: var(--theme-fore-color-active) !important;
   --urlbarView-highlight-background: var(--theme-accent-color) !important;
   --urlbar-box-bgcolor: var(--theme-field-color) !important;
+  --tabpanel-background-color: var(--theme-back-color) !important;
 }
 
 #search-box {
