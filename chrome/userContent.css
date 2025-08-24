@@ -39,8 +39,12 @@
     --theme-toolbar-separator: var(--theme-border-color) !important;
   }
 
-  tooltip,
   #viewsource {
+    background: #dddddd;
+    filter: brightness(0.8);
+  }
+
+  tooltip {
     background-color: var(--theme-back-color) !important;
   }
 
