@@ -71,6 +71,10 @@
     background-color: var(--theme-back-color) !important;
     border: 1px solid var(--theme-border-color) !important;
   }
+
+  input[type=search]:focus {
+    outline: 1px solid var(--theme-accent-color) !important;
+  }
   
   .radio-check:hover,
   input[type=radio]:hover,

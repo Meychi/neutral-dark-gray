@@ -175,6 +175,10 @@ input[type=checkbox],
   border: 1px solid var(--theme-border-color) !important;
 }
 
+input[type=search]:focus {
+  outline: 1px solid var(--theme-accent-color) !important;
+}
+
 input[type=radio]:hover,
 input[type=checkbox]:hover,
 .checkbox-check:hover {
