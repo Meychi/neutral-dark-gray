@@ -5,7 +5,9 @@
   body,
   window {
     --bg-color: var(--theme-back-color) !important;
+    --background-color-canvas: var(--theme-back-color) !important;
     --newtab-background-color: var(--theme-back-color) !important;
+    --background-color-box: var(--theme-back-color-card) !important;
     --newtab-background-color-secondary: var(--theme-back-color-card) !important;
     --page-nav-button-text-color: var(--theme-fore-color) !important;
     --in-content-page-color: var(--theme-fore-color) !important;
@@ -40,8 +42,7 @@
   }
 
   #viewsource {
-    background: #dddddd;
-    filter: brightness(0.8);
+    background-color: var(--theme-back-color) !important;
   }
 
   tooltip {
@@ -55,12 +56,6 @@
 
   .web-appearance-choice img {
     filter: saturate(0);
-  }
-
-  .navigation,
-  .main-content,
-  .sticky-container {
-    background: var(--theme-back-color) !important;
   }
 }
 
