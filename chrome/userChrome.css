@@ -165,7 +165,6 @@ input:not(#urlbar-input) {
   background-color: var(--theme-back-color) !important;
 }
 
-.radio-check,
 input[type=radio],
 input[type=search],
 input[type=checkbox],
@@ -176,21 +175,18 @@ input[type=checkbox],
   border: 1px solid var(--theme-border-color) !important;
 }
 
-.radio-check:hover,
 input[type=radio]:hover,
 input[type=checkbox]:hover,
 .checkbox-check:hover {
   filter: brightness(1.2);
 }
 
-.radio-check:disabled,
 input[type=radio]:disabled,
 input[type=checkbox]:disabled,
 .checkbox-check:disabled {
   filter: saturate(0.2) !important;
 }
 
-.radio-check:selected,
 input[type=radio]:checked,
 input[type=checkbox]:checked,
 .checkbox-check[checked] {
