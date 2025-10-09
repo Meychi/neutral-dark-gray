@@ -56,6 +56,12 @@
   .web-appearance-choice img {
     filter: saturate(0);
   }
+
+  .navigation,
+  .main-content,
+  .sticky-container {
+    background: var(--theme-back-color) !important;
+  }
 }
 
 @-moz-document url-prefix("about:") {
