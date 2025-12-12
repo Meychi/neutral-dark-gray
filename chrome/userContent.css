@@ -9,6 +9,7 @@
     --newtab-background-color: var(--theme-back-color) !important;
     --background-color-box: var(--theme-back-color-card) !important;
     --newtab-background-color-secondary: var(--theme-back-color-card) !important;
+    --newtab-background-card: var(--theme-back-color-card) !important;
     --page-nav-button-text-color: var(--theme-fore-color) !important;
     --in-content-page-color: var(--theme-fore-color) !important;
     --in-content-page-background: var(--theme-back-color) !important;
