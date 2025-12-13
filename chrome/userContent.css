@@ -35,6 +35,7 @@
     --focus-outline-color: var(--theme-accent-color) !important;
     --in-content-link-color: var(--theme-accent-color) !important;
     --fxview-primary-action-background: var(--theme-accent-color) !important;
+    --fxview-background-color-secondary: var(--theme-back-color) !important;
     --newtab-primary-action-background: var(--theme-accent-color) !important;
     --link-color-hover: var(--theme-accent-color-hover) !important;
     --link-color: var(--theme-accent-color) !important;
@@ -42,6 +43,47 @@
     --theme-toolbar-separator: var(--theme-border-color) !important;
     --in-content-box-info-background: var(--theme-back-color) !important;
     --newtab-weather-background-color: var(--theme-back-color-card) !important;
+    --background-color-box-info: var(--theme-back-color) !important;
+    --border-color: var(--theme-border-color) !important;
+    --box-shadow-card: none !important;
+  }
+
+  .featureGate,
+  .card-container {
+    box-shadow: none !important;
+  }
+
+  treechildren::-moz-tree-row(selected),
+  treechildren::-moz-tree-twisty(selected),
+  treechildren::-moz-tree-cell-text(selected) {
+    background-color: var(--theme-accent-color) !important;
+    color: var(--theme-fore-color-active) !important;
+  }
+  treechildren::-moz-tree-row(odd) {
+    background-color: var(--theme-back-color-card) !important;
+  }
+
+  #handlersView richlistitem[selected] {
+    outline: none !important;
+    border-radius: 0px !important;
+    background-image: none !important;
+    background-color: var(--theme-accent-color) !important;
+    color: var(--theme-fore-color-active) !important;
+  }
+
+  #windowsLaunchOnLoginDisabledBox {
+    border: 0px solid var(--theme-border-color) !important;
+  }
+
+  div.container {
+    background-color: var(--theme-back-color) !important;
+    border: 0px solid var(--theme-border-color) !important;
+    border-radius: var(--theme-corner-radius) !important;
+  }
+
+  #input.with-icon {
+    background-color: var(--theme-back-color) !important;
+    border: var(--theme-border-width) solid var(--theme-border-color) !important;
   }
 
   #viewsource {

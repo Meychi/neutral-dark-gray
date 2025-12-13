@@ -23,7 +23,6 @@ menupopup {
   --button-text-color: var(--theme-fore-color) !important;
   --button-hover-bgcolor: var(--theme-back-color-active) !important;
   --button-active-bgcolor: var(--theme-back-color-active) !important;
-  --button-active-bgcolor: var(--theme-back-color-active) !important;
   --button-background-color: var(--theme-back-color-active) !important;
   --button-primary-bgcolor: var(--theme-accent-color) !important;
   --button-primary-hover-bgcolor: var(--theme-accent-color-hover) !important;
@@ -133,7 +132,7 @@ toolbarbutton.subviewbutton:not([disabled],[open],.unified-extensions-item-menu-
 }
 
 #urlbar-background {
-  border: var(--theme-border-width) solid var(--theme-border-color-secondary) !important;
+  border: var(--theme-border-width) solid var(--theme-border-color) !important;
 }
 
 #placesToolbar {
