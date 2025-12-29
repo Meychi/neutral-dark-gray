@@ -35,7 +35,7 @@
     --focus-outline-color: var(--theme-accent-color) !important;
     --in-content-link-color: var(--theme-accent-color) !important;
     --fxview-primary-action-background: var(--theme-accent-color) !important;
-    --fxview-background-color-secondary: var(--theme-back-color) !important;
+    --fxview-background-color-secondary: var(--theme-back-color-card) !important;
     --newtab-primary-action-background: var(--theme-accent-color) !important;
     --link-color-hover: var(--theme-accent-color-hover) !important;
     --link-color: var(--theme-accent-color) !important;
@@ -147,3 +147,4 @@
   color: var(--theme-fore-color-active) !important;
   background: var(--theme-accent-color) !important;
 }
+
