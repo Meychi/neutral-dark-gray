@@ -23,6 +23,8 @@
     --in-content-accent-color: var(--theme-accent-color) !important;
     --lwt-toolbarbutton-icon-fill-attention: var(--theme-accent-color) !important;
     --button-text-color: var(--theme-fore-color) !important;
+    --button-background-color-hover: var(--theme-back-color-active) !important;
+    --button-background-color-active: var(--theme-accent-color-active) !important;
     --button-primary-bgcolor: var(--theme-accent-color) !important;
     --button-primary-hover-bgcolor: var(--theme-accent-color-hover) !important;
     --button-primary-active-bgcolor: var(--theme-accent-color-active) !important;
@@ -35,7 +37,7 @@
     --focus-outline-color: var(--theme-accent-color) !important;
     --in-content-link-color: var(--theme-accent-color) !important;
     --fxview-primary-action-background: var(--theme-accent-color) !important;
-    --fxview-background-color-secondary: var(--theme-back-color-card) !important;
+    --fxview-background-color-secondary: var(--theme-back-color) !important;
     --newtab-primary-action-background: var(--theme-accent-color) !important;
     --link-color-hover: var(--theme-accent-color-hover) !important;
     --link-color: var(--theme-accent-color) !important;
@@ -75,7 +77,7 @@
     border: 0px solid var(--theme-border-color) !important;
   }
 
-  div.container {
+  div.container:not(.nova-enabled) {
     background-color: var(--theme-back-color) !important;
     border: 0px solid var(--theme-border-color) !important;
     border-radius: var(--theme-corner-radius) !important;
@@ -147,4 +149,3 @@
   color: var(--theme-fore-color-active) !important;
   background: var(--theme-accent-color) !important;
 }
-
